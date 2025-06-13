@@ -1,2 +1,2 @@
-# news
-news website
+# Laravel News Project
+This is my Laravel project.
