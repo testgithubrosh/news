@@ -1,16 +1,10 @@
 <?php
 
-use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthController;
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+use App\Http\Controllers\AdminController;
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
-//admin controller
-Route::get('admin', [AdminController::class, 'index_admin']);
-Route::get('/category', [AdminController::class, 'insertForm'])->name('category');
+
+Route::get('/admin', [AdminController::class,'admin'])->name('admin');

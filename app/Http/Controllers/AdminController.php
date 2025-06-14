@@ -2,16 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
+
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public function index_admin(){
-        return view('dashboard.index');
+    public function admin(){
+        // echo "sdfhskdj";die;
+        return view('Dashboard.admin');
     }
-    public function insertForm()
-    {
-        return view('dashboard.category'); // Make sure this Blade file exists
-    }
-    
 }

@@ -1,4 +1,4 @@
-<header>
+	<header>
 		<!-- Header desktop -->
 		<div class="container-menu-desktop">
 			<div class="topbar">
@@ -9,7 +9,7 @@
 								New York, NY
 							</span>
 
-							<img class="m-b-1 m-rl-8" src="{{ asset('assets/images/icons/icon-night.png') }}" alt="IMG">
+							<img class="m-b-1 m-rl-8" src="{{asset('assets/images/icons/icon-night.png')}}" alt="IMG">
 
 							<span>
 								HI 58° LO 56°
@@ -59,7 +59,7 @@
 
 			<!-- Header Mobile -->
 			<div class="wrap-header-mobile">
-				<!-- Logo moblie -->
+				<!-- Logo moblie -->		
 				<div class="logo-mobile">
 					<a href="index-2.html"><img src="{{asset('assets/images/icons/logo-01.png')}}" alt="IMG-LOGO"></a>
 				</div>
@@ -188,28 +188,27 @@
 					</li>
 				</ul>
 			</div>
-
+			
 			<!--  -->
 			<div class="wrap-logo container">
-				<!-- Logo desktop -->
+				<!-- Logo desktop -->		
 				<div class="logo">
 					<a href="index-2.html"><img src="{{asset('assets/images/icons/logo-01.png')}}" alt="LOGO"></a>
-				</div>
+				</div>	
 
 				<!-- Banner -->
 				<div class="banner-header">
-					<a href="https://themewagon.com/themes/free-bootstrap-4-html5-news-website-template-magnews2/"><img
-							src="{{asset('assets/images/banner-01.jpg')}}" alt="IMG"></a>
+					<a href="https://themewagon.com/themes/free-bootstrap-4-html5-news-website-template-magnews2/"><img src="images/banner-01.jpg" alt="IMG"></a>
 				</div>
-			</div>
-
+			</div>	
+			
 			<!--  -->
 			<div class="wrap-main-nav">
 				<div class="main-nav">
 					<!-- Menu desktop -->
 					<nav class="menu-desktop">
 						<a class="logo-stick" href="index-2.html">
-							<img src="{{asset('images/icons/logo-01.png')}}" alt="LOGO">
+							<img src="{{asset('assets/images/icons/logo-01.png')}}" alt="LOGO">
 						</a>
 
 						<ul class="main-menu">
@@ -228,8 +227,7 @@
 								<div class="sub-mega-menu">
 									<div class="nav flex-column nav-pills" role="tablist">
 										<a class="nav-link active" data-toggle="pill" href="#news-0" role="tab">All</a>
-										<a class="nav-link" data-toggle="pill" href="#news-1"
-											role="tab">Entertaiment</a>
+										<a class="nav-link" data-toggle="pill" href="#news-1" role="tab">Entertaiment</a>
 										<a class="nav-link" data-toggle="pill" href="#news-2" role="tab">Fashion</a>
 										<a class="nav-link" data-toggle="pill" href="#news-3" role="tab">Life Style</a>
 										<a class="nav-link" data-toggle="pill" href="#news-4" role="tab">Technology</a>
@@ -240,16 +238,15 @@
 										<div class="tab-pane show active" id="news-0" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-05.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-05.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -272,16 +269,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-10.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-10.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -304,16 +300,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-14.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-14.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -336,16 +331,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-36.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-36.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -372,16 +366,15 @@
 										<div class="tab-pane" id="news-1" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-50.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-50.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -404,16 +397,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-08.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-08.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -436,16 +428,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-07.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-07.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -468,16 +459,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-06.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-06.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -504,16 +494,15 @@
 										<div class="tab-pane" id="news-2" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-21.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-21.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -536,16 +525,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-24.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-24.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -568,16 +556,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-22.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-22.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -600,16 +587,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-23.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-23.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -636,16 +622,15 @@
 										<div class="tab-pane" id="news-3" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-25.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-25.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -668,16 +653,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-27.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-27.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -700,16 +684,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-26.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-26.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -732,16 +715,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assetsimages/post-34.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-34.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -768,16 +750,15 @@
 										<div class="tab-pane" id="news-4" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-35.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-35.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -800,16 +781,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-36.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-36.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -832,16 +812,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-37.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-37.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -864,16 +843,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-38.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-38.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -900,16 +878,15 @@
 										<div class="tab-pane" id="news-5" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-39.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-39.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -932,16 +909,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-41.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-41.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -964,16 +940,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-42.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-42.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -996,16 +971,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-40.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-40.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1046,16 +1020,15 @@
 										<div class="tab-pane show active" id="enter-1" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-25.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-25.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1078,16 +1051,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-27.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-27.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1110,16 +1082,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-26.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-26.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1142,16 +1113,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-34.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-34.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1178,16 +1148,15 @@
 										<div class="tab-pane" id="enter-2" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-35.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-35.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1210,16 +1179,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-36.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-36.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1242,16 +1210,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-37.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-37.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1274,16 +1241,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-38.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-38.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1310,16 +1276,15 @@
 										<div class="tab-pane" id="enter-3" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-39.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-39.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1342,16 +1307,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-41.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-41.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1374,16 +1338,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-42.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-42.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1406,16 +1369,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-40.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-40.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1447,8 +1409,7 @@
 
 								<div class="sub-mega-menu">
 									<div class="nav flex-column nav-pills" role="tablist">
-										<a class="nav-link active" data-toggle="pill" href="#business-1"
-											role="tab">All</a>
+										<a class="nav-link active" data-toggle="pill" href="#business-1" role="tab">All</a>
 										<a class="nav-link" data-toggle="pill" href="#business-2" role="tab">Economy</a>
 									</div>
 
@@ -1456,16 +1417,15 @@
 										<div class="tab-pane show active" id="business-1" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-10.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-10.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1488,16 +1448,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-11.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-11.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1520,16 +1479,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-26.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-26.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1552,16 +1510,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-34.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-34.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1588,16 +1545,15 @@
 										<div class="tab-pane" id="business-2" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-35.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-35.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1620,16 +1576,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-36.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-36.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1652,16 +1607,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-37.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-37.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1684,16 +1638,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-38.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-38.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1725,8 +1678,7 @@
 
 								<div class="sub-mega-menu">
 									<div class="nav flex-column nav-pills" role="tablist">
-										<a class="nav-link active" data-toggle="pill" href="#travel-1"
-											role="tab">All</a>
+										<a class="nav-link active" data-toggle="pill" href="#travel-1" role="tab">All</a>
 										<a class="nav-link" data-toggle="pill" href="#travel-2" role="tab">Hotels</a>
 									</div>
 
@@ -1734,16 +1686,15 @@
 										<div class="tab-pane show active" id="travel-1" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-39.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-39.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1766,16 +1717,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-41.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-41.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1798,16 +1748,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-42.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-42.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1830,16 +1779,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-40.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-40.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1866,16 +1814,15 @@
 										<div class="tab-pane" id="travel-2" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-35.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-35.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1898,16 +1845,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-36.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-36.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1930,16 +1876,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-37.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-37.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -1962,16 +1907,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-38.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-38.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -2010,16 +1954,15 @@
 										<div class="tab-pane show active" id="life-1" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-25.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-25.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -2042,16 +1985,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-27.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-27.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -2074,16 +2016,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-26.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-26.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -2106,16 +2047,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset("assets/images/post-34.jpg")}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-34.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -2154,16 +2094,15 @@
 										<div class="tab-pane show active" id="video-1" role="tabpanel">
 											<div class="row">
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-50.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-50.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -2186,16 +2125,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-08.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-08.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -2218,16 +2156,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-07.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-07.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -2250,16 +2187,15 @@
 												</div>
 
 												<div class="col-3">
-													<!-- Item post -->
+													<!-- Item post -->	
 													<div>
 														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-															<img src="{{asset('assets/images/post-06.jpg')}}" alt="IMG">
+															<img src="{{ asset('assets/images/post-06.jpg')}}" alt="IMG">
 														</a>
 
 														<div class="p-t-10">
 															<h5 class="p-b-5">
-																<a href="blog-detail-01.html"
-																	class="f1-s-5 cl3 hov-cl10 trans-03">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 																	Donec metus orci, malesuada et lectus vitae
 																</a>
 															</h5>
@@ -2303,6 +2239,6 @@
 						</ul>
 					</nav>
 				</div>
-			</div>
+			</div>	
 		</div>
 	</header>

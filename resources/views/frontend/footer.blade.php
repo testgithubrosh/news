@@ -11,9 +11,7 @@
 
 						<div>
 							<p class="f1-s-1 cl11 p-b-16">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor magna eget
-								elit efficitur, at accumsan sem placerat. Nulla tellus libero, mattis nec molestie at,
-								facilisis ut turpis. Vestibulum dolor metus, tincidunt eget odio
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor magna eget elit efficitur, at accumsan sem placerat. Nulla tellus libero, mattis nec molestie at, facilisis ut turpis. Vestibulum dolor metus, tincidunt eget odio
 							</p>
 
 							<p class="f1-s-1 cl11 p-b-16">
@@ -90,7 +88,7 @@
 
 							<li class="flex-wr-sb-s p-b-20">
 								<a href="#" class="size-w-4 wrap-pic-w hov1 trans-03">
-									<img src="{{ asset('assets/images/popular-post-03.jpg')}}" alt="IMG">
+									<img src="{{asset('assets/images/popular-post-03.jpg')}}" alt="IMG">
 								</a>
 
 								<div class="size-w-5">
@@ -154,14 +152,10 @@
 		<div class="bg11">
 			<div class="container size-h-4 flex-c-c p-tb-15">
 				<span class="f1-s-1 cl0 txt-center">
-					Copyright © 2018
+					Copyright © 2018 
 
-					<a href="#"
-						class="f1-s-1 cl10 hov-link1"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script> All rights reserved | This template
-						is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/"
-							target="_blank">Colorlib</a>
+					<a href="#" class="f1-s-1 cl10 hov-link1">
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
 
 				</span>
 			</div>

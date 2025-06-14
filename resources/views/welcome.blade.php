@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
-@include('include.head')
-
+@include('frontend.head')
 <body class="animsition">
-
-	<!-- Header -->
-	@include('include.header');
-	<!-- Headline -->
+@include('frontend.header')
 	<div class="container">
 		<div class="bg0 flex-wr-sb-c p-rl-20 p-tb-8">
 			<div class="f2-s-1 p-r-30 size-w-0 m-tb-6 flex-wr-s-c">
@@ -16,12 +11,11 @@
 					Trending Now:
 				</span>
 
-				<span class="dis-inline-block cl6 slide100-txt pos-relative size-w-0" data-in="fadeInDown"
-					data-out="fadeOutDown">
+				<span class="dis-inline-block cl6 slide100-txt pos-relative size-w-0" data-in="fadeInDown" data-out="fadeOutDown">
 					<span class="dis-inline-block slide100-txt-item animated visible-false">
 						Interest rate angst trips up US equity bull market
 					</span>
-
+					
 					<span class="dis-inline-block slide100-txt-item animated visible-false">
 						Designer fashion show kicks off Variety Week
 					</span>
@@ -40,9 +34,9 @@
 			</div>
 		</div>
 	</div>
-
+		
 	<!-- Feature post -->
-	<section class="bg0">
+		<section class="bg0">
 		<div class="container">
 			<div class="row m-rl--1">
 				<div class="col-md-6 p-rl-1 p-b-2">
@@ -145,7 +139,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- Post -->
 	<section class="bg0 p-t-70">
 		<div class="container">
@@ -188,7 +181,7 @@
 										</a>
 
 										<ul class="dropdown-menu">
-
+											
 										</ul>
 									</li>
 								</ul>
@@ -199,7 +192,7 @@
 									<i class="fs-12 m-l-5 fa fa-caret-right"></i>
 								</a>
 							</div>
-
+								
 
 							<!-- Tab panes -->
 							<div class="tab-content p-t-35">
@@ -207,7 +200,7 @@
 								<div class="tab-pane fade show active" id="tab1-1" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-05.jpg')}}" alt="IMG">
@@ -215,9 +208,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															American live music lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															American live music lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -239,7 +231,7 @@
 										</div>
 
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-06.jpg')}}" alt="IMG">
@@ -247,8 +239,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -268,7 +259,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -277,8 +268,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -307,8 +297,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -336,7 +325,7 @@
 								<div class="tab-pane fade" id="tab1-2" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-09.jpg')}}" alt="IMG">
@@ -344,9 +333,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															American live music lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															American live music lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -376,8 +364,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -398,7 +385,7 @@
 												</div>
 											</div>
 
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-06.jpg')}}" alt="IMG">
@@ -406,8 +393,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -427,7 +413,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -436,8 +422,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -465,7 +450,7 @@
 								<div class="tab-pane fade" id="tab1-3" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-08.jpg')}}" alt="IMG">
@@ -473,9 +458,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															American live music lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															American live music lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -505,8 +489,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -527,7 +510,7 @@
 												</div>
 											</div>
 
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-06.jpg')}}" alt="IMG">
@@ -535,8 +518,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -556,7 +538,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -565,8 +547,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -594,7 +575,7 @@
 								<div class="tab-pane fade" id="tab1-4" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-06.jpg')}}" alt="IMG">
@@ -602,9 +583,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															American live music lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															American live music lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -634,8 +614,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -656,7 +635,7 @@
 												</div>
 											</div>
 
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-07.jpg')}}" alt="IMG">
@@ -664,8 +643,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -685,7 +663,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -694,8 +672,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -723,7 +700,7 @@
 								<div class="tab-pane fade" id="tab1-5" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-07.jpg')}}" alt="IMG">
@@ -731,9 +708,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															American live music lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															American live music lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -763,8 +739,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -785,7 +760,7 @@
 												</div>
 											</div>
 
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-06.jpg')}}" alt="IMG">
@@ -793,8 +768,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -814,7 +788,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -823,8 +797,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -869,13 +842,11 @@
 									</li>
 
 									<li class="nav-item">
-										<a class="nav-link" data-toggle="tab" href="#tab2-3" role="tab">Money &
-											Markets</a>
+										<a class="nav-link" data-toggle="tab" href="#tab2-3" role="tab">Money & Markets</a>
 									</li>
 
 									<li class="nav-item">
-										<a class="nav-link" data-toggle="tab" href="#tab2-4" role="tab">Small
-											Business</a>
+										<a class="nav-link" data-toggle="tab" href="#tab2-4" role="tab">Small Business</a>
 									</li>
 
 									<li class="nav-item-more dropdown dis-none">
@@ -884,7 +855,7 @@
 										</a>
 
 										<ul class="dropdown-menu">
-
+											
 										</ul>
 									</li>
 								</ul>
@@ -895,7 +866,7 @@
 									<i class="fs-12 m-l-5 fa fa-caret-right"></i>
 								</a>
 							</div>
-
+								
 
 							<!-- Tab panes -->
 							<div class="tab-content p-t-35">
@@ -903,7 +874,7 @@
 								<div class="tab-pane fade show active" id="tab2-1" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-10.jpg')}}" alt="IMG">
@@ -911,9 +882,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															Bitcoin lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															Bitcoin lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -935,7 +905,7 @@
 										</div>
 
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-11.jpg')}}" alt="IMG">
@@ -943,8 +913,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -964,7 +933,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -973,8 +942,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1003,8 +971,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1032,7 +999,7 @@
 								<div class="tab-pane fade" id="tab2-2" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-13.jpg')}}" alt="IMG">
@@ -1040,9 +1007,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															Bitcoin lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															Bitcoin lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -1064,7 +1030,7 @@
 										</div>
 
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-12.jpg')}}" alt="IMG">
@@ -1072,8 +1038,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1093,7 +1058,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -1102,8 +1067,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1132,8 +1096,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1161,7 +1124,7 @@
 								<div class="tab-pane fade" id="tab2-3" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-11.jpg')}}" alt="IMG">
@@ -1169,9 +1132,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															Bitcoin lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															Bitcoin lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -1193,7 +1155,7 @@
 										</div>
 
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-12.jpg')}}" alt="IMG">
@@ -1201,8 +1163,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1222,7 +1183,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -1231,8 +1192,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1261,8 +1221,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1290,7 +1249,7 @@
 								<div class="tab-pane fade" id="tab2-4" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-12.jpg')}}" alt="IMG">
@@ -1298,9 +1257,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															Bitcoin lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															Bitcoin lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -1322,7 +1280,7 @@
 										</div>
 
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-13.jpg')}}" alt="IMG">
@@ -1330,8 +1288,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1351,7 +1308,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -1360,8 +1317,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1390,8 +1346,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1453,7 +1408,7 @@
 										</a>
 
 										<ul class="dropdown-menu">
-
+											
 										</ul>
 									</li>
 								</ul>
@@ -1464,7 +1419,7 @@
 									<i class="fs-12 m-l-5 fa fa-caret-right"></i>
 								</a>
 							</div>
-
+								
 
 							<!-- Tab panes -->
 							<div class="tab-content p-t-35">
@@ -1472,7 +1427,7 @@
 								<div class="tab-pane fade show active" id="tab3-1" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-14.jpg')}}" alt="IMG">
@@ -1480,9 +1435,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															You wish lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															You wish lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -1504,7 +1458,7 @@
 										</div>
 
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-15.jpg')}}" alt="IMG">
@@ -1512,8 +1466,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1533,7 +1486,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -1542,8 +1495,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1572,8 +1524,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1601,7 +1552,7 @@
 								<div class="tab-pane fade" id="tab3-2" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-15.jpg')}}" alt="IMG">
@@ -1609,9 +1560,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															You wish lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															You wish lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -1633,7 +1583,7 @@
 										</div>
 
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-16.jpg')}}" alt="IMG">
@@ -1641,8 +1591,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1662,7 +1611,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -1671,8 +1620,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1701,8 +1649,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1730,7 +1677,7 @@
 								<div class="tab-pane fade" id="tab3-3" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-16.jpg')}}" alt="IMG">
@@ -1738,9 +1685,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															You wish lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															You wish lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -1762,7 +1708,7 @@
 										</div>
 
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-17.jpg')}}" alt="IMG">
@@ -1770,8 +1716,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1791,7 +1736,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -1800,8 +1745,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1830,8 +1774,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1859,7 +1802,7 @@
 								<div class="tab-pane fade" id="tab3-4" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-17.jpg')}}" alt="IMG">
@@ -1867,9 +1810,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															You wish lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															You wish lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -1891,7 +1833,7 @@
 										</div>
 
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-18.jpg')}}" alt="IMG">
@@ -1899,8 +1841,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1920,7 +1861,7 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
@@ -1929,8 +1870,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1959,8 +1899,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -1988,7 +1927,7 @@
 								<div class="tab-pane fade" id="tab3-5" role="tabpanel">
 									<div class="row">
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="m-b-30">
 												<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-18.jpg')}}" alt="IMG">
@@ -1996,9 +1935,8 @@
 
 												<div class="p-t-20">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-m-3 cl2 hov-cl10 trans-03">
-															You wish lorem ipsum dolor sit amet consectetur
+														<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+															You wish lorem ipsum dolor sit amet consectetur 
 														</a>
 													</h5>
 
@@ -2020,7 +1958,7 @@
 										</div>
 
 										<div class="col-sm-6 p-r-25 p-r-15-sr991">
-											<!-- Item post -->
+											<!-- Item post -->	
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
 													<img src="{{ asset('assets/images/post-17.jpg')}}" alt="IMG">
@@ -2028,8 +1966,7 @@
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -2049,17 +1986,16 @@
 													</span>
 												</div>
 											</div>
-
+											
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
-													<img src="{{asset('assets/images/post-16.jpg')}}" alt="IMG">
+													<img src="{{ asset('assets/images/post-16.jpg')}}" alt="IMG">
 												</a>
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -2083,13 +2019,12 @@
 											<!-- Item post -->
 											<div class="flex-wr-sb-s m-b-30">
 												<a href="blog-detail-01.html" class="size-w-1 wrap-pic-w hov1 trans-03">
-													<img src="{{asset('assets/images/post-15.jpg')}}" alt="IMG">
+													<img src="{{ asset('assets/images/post-15.jpg')}}" alt="IMG">
 												</a>
 
 												<div class="size-w-2">
 													<h5 class="p-b-5">
-														<a href="blog-detail-01.html"
-															class="f1-s-5 cl3 hov-cl10 trans-03">
+														<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
 															Donec metus orci, malesuada et lectus vitae
 														</a>
 													</h5>
@@ -2183,10 +2118,10 @@
 						<!--  -->
 						<div class="flex-c-s p-t-8">
 							<a href="#">
-								<img class="max-w-full" src="{{asset('assets/images/banner-02.jpg')}}" alt="IMG">
+								<img class="max-w-full" src="{{ asset('assets/images/banner-02.j')}}pg" alt="IMG">
 							</a>
 						</div>
-
+						
 						<!--  -->
 						<div class="p-t-50">
 							<div class="how2 how2-cl4 flex-s-c">
@@ -2197,8 +2132,7 @@
 
 							<ul class="p-t-35">
 								<li class="flex-wr-sb-c p-b-20">
-									<a href="#"
-										class="size-a-8 flex-c-c borad-3 size-a-8 bg-facebook fs-16 cl0 hov-cl0">
+									<a href="#" class="size-a-8 flex-c-c borad-3 size-a-8 bg-facebook fs-16 cl0 hov-cl0">
 										<span class="fab fa-facebook-f"></span>
 									</a>
 
@@ -2274,16 +2208,16 @@
 
 					<div class="row p-t-35">
 						<div class="col-sm-6 p-r-25 p-r-15-sr991">
-							<!-- Item latest -->
+							<!-- Item latest -->	
 							<div class="m-b-45">
 								<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-									<img src="{{asset('assets/images/latest-01.jpg')}}" alt="IMG">
+									<img src="{{ asset('assets/images/latest-01.jpg" alt="IMG">
 								</a>
 
 								<div class="p-t-16">
 									<h5 class="p-b-5">
 										<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
-											You wish lorem ipsum dolor sit amet consectetur
+											You wish lorem ipsum dolor sit amet consectetur 
 										</a>
 									</h5>
 
@@ -2305,16 +2239,16 @@
 						</div>
 
 						<div class="col-sm-6 p-r-25 p-r-15-sr991">
-							<!-- Item latest -->
+							<!-- Item latest -->	
 							<div class="m-b-45">
 								<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-									<img src="{{asset('assets/images/latest-02.jpg')}}" alt="IMG">
+									<img src="{{ asset('assets/images/latest-02.jpg" alt="IMG">
 								</a>
 
 								<div class="p-t-16">
 									<h5 class="p-b-5">
 										<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
-											You wish lorem ipsum dolor sit amet consectetur
+											You wish lorem ipsum dolor sit amet consectetur 
 										</a>
 									</h5>
 
@@ -2336,16 +2270,16 @@
 						</div>
 
 						<div class="col-sm-6 p-r-25 p-r-15-sr991">
-							<!-- Item latest -->
+							<!-- Item latest -->	
 							<div class="m-b-45">
 								<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-									<img src="{{asset('assets/images/latest-03.jpg')}}" alt="IMG">
+									<img src="{{ asset('assets/images/latest-03.jpg" alt="IMG">
 								</a>
 
 								<div class="p-t-16">
 									<h5 class="p-b-5">
 										<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
-											You wish lorem ipsum dolor sit amet consectetur
+											You wish lorem ipsum dolor sit amet consectetur 
 										</a>
 									</h5>
 
@@ -2367,16 +2301,16 @@
 						</div>
 
 						<div class="col-sm-6 p-r-25 p-r-15-sr991">
-							<!-- Item latest -->
+							<!-- Item latest -->	
 							<div class="m-b-45">
 								<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-									<img src="{{asset('assets/images/latest-04.jpg')}}" alt="IMG">
+									<img src="{{ asset('assets/images/latest-04.jpg" alt="IMG">
 								</a>
 
 								<div class="p-t-16">
 									<h5 class="p-b-5">
 										<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
-											You wish lorem ipsum dolor sit amet consectetur
+											You wish lorem ipsum dolor sit amet consectetur 
 										</a>
 									</h5>
 
@@ -2398,16 +2332,16 @@
 						</div>
 
 						<div class="col-sm-6 p-r-25 p-r-15-sr991">
-							<!-- Item latest -->
+							<!-- Item latest -->	
 							<div class="m-b-45">
 								<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-									<img src="{{asset('assets/images/latest-05.jpg')}}" alt="IMG">
+									<img src="{{ asset('assets/images/latest-05.jpg" alt="IMG">
 								</a>
 
 								<div class="p-t-16">
 									<h5 class="p-b-5">
 										<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
-											You wish lorem ipsum dolor sit amet consectetur
+											You wish lorem ipsum dolor sit amet consectetur 
 										</a>
 									</h5>
 
@@ -2429,16 +2363,16 @@
 						</div>
 
 						<div class="col-sm-6 p-r-25 p-r-15-sr991">
-							<!-- Item latest -->
+							<!-- Item latest -->	
 							<div class="m-b-45">
 								<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
-									<img src="{{asset('assets/images/latest-06.jpg')}}" alt="IMG">
+									<img src="{{ asset('assets/images/latest-06.jpg" alt="IMG">
 								</a>
 
 								<div class="p-t-16">
 									<h5 class="p-b-5">
 										<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
-											You wish lorem ipsum dolor sit amet consectetur
+											You wish lorem ipsum dolor sit amet consectetur 
 										</a>
 									</h5>
 
@@ -2473,10 +2407,9 @@
 
 							<div>
 								<div class="wrap-pic-w pos-relative">
-									<img src="{{asset('assets/images/video-01.jpg')}}" alt="IMG">
+									<img src="{{ asset('assets/images/video-01.jpg" alt="IMG">
 
-									<button class="s-full ab-t-l flex-c-c fs-32 cl0 hov-cl10 trans-03"
-										data-toggle="modal" data-target="#modal-video-01">
+									<button class="s-full ab-t-l flex-c-c fs-32 cl0 hov-cl10 trans-03" data-toggle="modal" data-target="#modal-video-01">
 										<span class="fab fa-youtube"></span>
 									</button>
 								</div>
@@ -2484,7 +2417,7 @@
 								<div class="p-tb-16 p-rl-25 bg3">
 									<h5 class="p-b-5">
 										<a href="#" class="f1-m-3 cl0 hov-cl10 trans-03">
-											Music lorem ipsum dolor sit amet consectetur
+											Music lorem ipsum dolor sit amet consectetur 
 										</a>
 									</h5>
 
@@ -2502,9 +2435,9 @@
 										</span>
 									</span>
 								</div>
-							</div>
+							</div>	
 						</div>
-
+							
 						<!-- Subscribe -->
 						<div class="bg10 p-rl-35 p-t-28 p-b-35 m-b-55">
 							<h5 class="f1-m-5 cl0 p-b-10">
@@ -2516,15 +2449,14 @@
 							</p>
 
 							<form class="size-a-9 pos-relative">
-								<input class="s-full f1-m-6 cl6 plh9 p-l-20 p-r-55" type="text" name="email"
-									placeholder="Email">
+								<input class="s-full f1-m-6 cl6 plh9 p-l-20 p-r-55" type="text" name="email" placeholder="Email">
 
 								<button class="size-a-10 flex-c-c ab-t-r fs-16 cl9 hov-cl10 trans-03">
 									<i class="fa fa-arrow-right"></i>
 								</button>
 							</form>
 						</div>
-
+						
 						<!-- Tag -->
 						<div class="p-b-55">
 							<div class="how2 how2-cl4 flex-s-c m-b-30">
@@ -2534,46 +2466,38 @@
 							</div>
 
 							<div class="flex-wr-s-s m-rl--5">
-								<a href="#"
-									class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+								<a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
 									Fashion
 								</a>
 
-								<a href="#"
-									class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+								<a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
 									Lifestyle
 								</a>
 
-								<a href="#"
-									class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+								<a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
 									Denim
 								</a>
 
-								<a href="#"
-									class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+								<a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
 									Streetstyle
 								</a>
 
-								<a href="#"
-									class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+								<a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
 									Crafts
 								</a>
 
-								<a href="#"
-									class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+								<a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
 									Magazine
 								</a>
 
-								<a href="#"
-									class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+								<a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
 									News
 								</a>
 
-								<a href="#"
-									class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+								<a href="#" class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
 									Blogs
 								</a>
-							</div>
+							</div>	
 						</div>
 					</div>
 				</div>
@@ -2582,7 +2506,7 @@
 	</section>
 
 	<!-- Footer -->
-	@include('include.footer')
+	@include('frontend.footer')
 
 	<!-- Back to top -->
 	<div class="btn-back-to-top" id="myBtn">
@@ -2591,7 +2515,6 @@
 		</span>
 	</div>
 
-	<!-- Modal Video 01-->
 	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog" role="document" data-dismiss="modal">
 			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
@@ -2603,7 +2526,7 @@
 			</div>
 		</div>
 	</div>
-@include('include.script')
 
+@include('frontend.script')
 </body>
-</html>in
+</html>
